@@ -1,18 +1,27 @@
 <h1 class="title" data-bind="title"></h1>
-
 <ol>
-  <li data-foreach-item="items">
-    <span class="label" data-bind="item.label"></span>
-    <span class="value" data-bind="item.value"></span>
-  </li>
+    <li>
+        <span class="label">Project</span>
+        <span class="author">Created By</span>
+        <span class="value">Ready to Merge</span>
+    </li>
+    <li data-foreach-item="items">
+        <span class="label" data-bind="item.name"></span>
+        <span class="author" data-bind="item.createdBy"></span>
+        <span class="value" data-bind="item.readyToMerge"></span>
+    </li>
 </ol>
-
 <ul class="list-nostyle">
-  <li data-foreach-item="items">
-    <span class="label" data-bind="item.label"></span>
-    <span class="value" data-bind="item.value"></span>
-  </li>
+    <li>
+        <span class="label">Project</span>
+        <span class="author">Created By</span>
+        <span class="value">Ready to Merge</span>
+    </li>
+    <li data-foreach-item="items">
+        <span class="label" data-bind="item.name"></span>
+        <span class="author" data-bind="item.createdBy"></span>
+        <span class="value" data-bind="item.readyToMerge"></span>
+    </li>
 </ul>
-
 <p class="more-info" data-bind="moreinfo"></p>
 <p class="updated-at" data-bind="updatedAtMessage"></p>
