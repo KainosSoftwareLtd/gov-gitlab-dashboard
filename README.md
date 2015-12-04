@@ -20,6 +20,10 @@ You may need to run the following to ensure it is working.
 rbenv rehash
 ```
 ### Running the dashboard
+```
+$ gem install dashing
+```
+
 From this projects root directory
 ```
 $ bundle
